@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="audio">
+        <audio autoplay controls loop>
+         <source src="http://www.orangefreesounds.com/wp-content/uploads/2014/10/Jeopardy-theme-song.mp3?_=1" type="audio/mp3">
+    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TRIVIATÓN</title>
+ 
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+  </head>
+  
+<body>
+
+    <!-- primer bloque de bienvenida-->
+    <div id="saludo" class="cajas">
+        <h1> <strong> Bienvenido a la Triviatón</strong> </h1>
+        <div  class="cont-btn">
+           <div class="cont-img-sal">
+            <img src="img/Cerebrito leyendo.png" alt="" class="img_prin">
+
+        </div>
+            <input id="btn_star" type="button" value="Comenzar" class="btn-start">
+        </div>
+
+    </div>
+
+    <!-- segundo bloque de ingreso de datos-->
+    <div id="part1" class="cajas">
+
+
+        <div class="cont_1">
+
+                <div id="cont_reg">
+                    <h2 id="Cambiar"> Si quieres empezar a jugar, </h2>
+                    <br>
+                    <br>
+                    <h1>Ingresa tu Nombre</h1>
+                    <br>
+                    <br>
+                    <input type="text"  id="Name">
+                    <br>
+                    <br>
+                    <button  id="btn" >Enviar</button>
+                    <br>
+                    <br>
+                </div >
+                <div class="dnmc">
+                        <h2 id="Cambiar2"></h2>
+                      </br>
+                        <input type="button" id="next" value="siguiente">
+
+                </div>
+        </div>
+
+    </div>
+    <div id="part2">
+       <h2><strong>Elige una opción</strong></h2>
+        <div class="conteiner_opciones">
+
+            <div class="opciones" >
+
+                <input type="button" id="A" value="LITERATURA HISPANOAMERICANA">
+              
+            </div>
+                  
+           
+            <div class="opciones">
+    
+
+                <input type="button" id="B" value="CINE UNIVERSAL">
+            </div>
+        </div>
+    </div>
+
+    <div id="part3" class="cajas " >
+            <h1>Literatura Hispanoamericana</h1>
+
+            <div id= "fond_preg">
+              <div class="preguntas">
+                <p> 1. ¿Cuántos libros para niños escribió Mario Vargas Llosa?</p>
+
+                  <input type="radio" name="pregunta_1" value="error"  />  0
+                  <input type="radio" name="pregunta_1" value="error" /> 1
+                  <input type="radio" name="pregunta_1" value="correcto"  /> 2
+
+              </div>
+                  <br>
+              <div class="preguntas">
+                <p >2. ¿Quién fue Dulcinea para Don Quijote de la Mancha?</p>
+
+                    <input type="radio" name="pregunta_2" value="error"/>  Una yegua fiel
+                    <input type="radio" name="pregunta_2" value="error" /> Una sirvienta imaginaria
+                    <input type="radio" name="pregunta_2" value="correcto"  /> Su amor platónico imaginario
+
+                </div>
+                <br>
+                <div class="preguntas">
+                <p>3. ¿Qué libro no escribió Gabriel García Márquez?</p>
+
+                      <input type="radio" name= "pregunta_3" value="error"/>  El amor en los tiempos del cólera
+                      <input type="radio" name= "pregunta_3" value="correcto" /> La guerra del fin del mundo
+                      <input type="radio" name= "pregunta_3"  value="error" /> Crónica de una muerte anunciada
+
+                    </div>
+                  </div>
+
+                    <br>
+                 <input type="button" id="btn-respA" value="Mostrar resultado" >
+
+            
+      </div>
+
+      <!--********************** INICIO DE TRIVIA CINE "2DA OPCIÓN"  ******************-->
+
+      <div id="part4" class="cajas">
+
+            <h1>Cine Universal</h1>
+
+            <div id= "fond_preg">
+              <div class="preguntas">
+              <p> 1. ¿Hace cuántos años se estrenó Matrix?</p>
+
+                    <input type="radio" name="pregunta_1" value="error" /> Hace 25 años
+                    <input type="radio" name="pregunta_1" value="error" /> Hace 23 años
+                    <input type="radio" name="pregunta_1" value="correcto"/> Hace 20 años
+
+                </div>
+                <br>
+
+              <div class="preguntas">
+                  <p class="cine">2. ¿Qué película fue filmada en territorio latinoamericano?</p>
+
+                  <input type="radio" name="pregunta_2" value="error" /> Casablanca
+                  <input type="radio" name="pregunta_2" value="correcto"/> Depredador
+                  <input type="radio" name="pregunta_2" value="error" /> Tarzán 7
+
+                </div>
+                  <br>
+
+                <div class="preguntas">
+                  <p class="cine">3. ¿En qué película fue protagonista Carlos Alcántara?</p>
+
+                    <input type="radio" name="pregunta_3" value="error" /> La paisana Jacinta en búsqueda de Wasaberto
+                    <input type="radio" name="pregunta_3" value="correcto"/> Asu Mare
+                    <input type="radio" name="pregunta_3" value="error"/> La boca del lobo
+
+                      </div>
+                  </div>
+                   <br> <input type="button" id="btn-respB" value="Mostrar resultado" >
+
+                </div>
+        </div>
+
+  <div id="part5" class="cajas" >
+      <div class="cont_resultados">
+        <h3>Gracias por Participar</h3>
+        <p>Resultados</p>
+        <div class="resultados">
+            <h5 id="correctas"> </h5>
+            <h5 id="incorrectas"> </h5>
+        </div>
+
+        <div>
+                <input type="button" id="btn-salir" value="Salir" >
+                <input type="button" id="btn-return" value="Volver a intentar" >
+        </div>
+    </div>
+  </div>
+
+
+    <!--<script src="js/operaciones.js"></script>-->
+    <script src="js/operaciones.js"></script>
+
+
+</body>
+</html>
