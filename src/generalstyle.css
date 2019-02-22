@@ -3,8 +3,23 @@ body {
     color: white;
     background-color: #333e35;
     font-family: roboto,sans-serif;
-    
-   }
+    text-align: center;
+    width:10%;
+    height: 10%;
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+    /*border-top: 2px solid #97A801;
+    border-right: 2px solid #97A801;
+    border-bottom: 2px solid #97A801;
+    border-left: 2px solid #97A801;
+    margin-right: 10%
+    margin-left: 10%;
+    margin-TOP: 7%;
+    margin-BOTTOM: 7%;
+    height: 100%;
+    width: 100%;*/
+   }   
     h1 {
      text-decoration: underline;
     }
