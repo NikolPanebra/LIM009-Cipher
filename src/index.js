@@ -10,11 +10,9 @@ const button2B = document.getElementById('button2B');
  
  /*Capturar el mensaje si el usuario decide encriptar*/
  
- button2A.addEventListener('click', capturaParaEncriptar);
- function capturaParaEncriptar() {
 
-console.log(`${mensaje2A.value}`);
-} 
+const capturaParaEncriptar = () => console.log(`${mensaje2A.value}`);
+button2A.addEventListener('click', capturaParaEncriptar);
 
 
  /*Capturar el mensaje si el usuario decide desencriptar PONER UN IF PARA CONDICIONAR QUÉ ACCION TENDRÁ AL HACER CLICK EN EL BOTÓN*/
