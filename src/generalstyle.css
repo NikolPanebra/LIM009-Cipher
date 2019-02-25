@@ -1,0 +1,41 @@
+/* Acá va tu código */
+body {
+    color: white;
+    /*background-color: #333e35;*/
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/001/992/455/large/inkola-dlm-1531-bg-v04.jpg?1455660968);
+    background-size: 105% 110%;
+    background-repeat: auto;
+    background-attachment: fixed;
+     font-family: roboto,sans-serif;
+    text-align: center;
+    height: 13%;
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+    /*border-top: 2px solid #97A801;
+    border-right: 2px solid #97A801;
+    border-bottom: 2px solid #97A801;
+    border-left: 2px solid #97A801;
+    margin-right: 10%
+    margin-left: 10%;
+    margin-TOP: 7%;
+    margin-BOTTOM: 7%;
+    height: 100%;
+    width: 100%;*/
+}   
+
+h1 {
+     
+}
+      
+#first_textbox{
+    width: 410px;
+    height:30px;
+    text-align: center;
+} 
+
+#buttons {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 800;
+}
+   
