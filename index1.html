@@ -1,49 +1,57 @@
 
 <!DOCTYPE html>
-<html>
+<html lang = esp>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>El teclado de Rasec</title>
     <link rel="stylesheet" href="generalstyle.css" />
     <link href="https://fonts.googleapis.com/css?family=Mukta:400,600" rel="stylesheet">
   </head>
-
   <body>
-    <div id="1rstFrame">
-      <h1>BIENVENIDO, VALIENTE AVENTURERO</h1>
-      <h2>Parece que tienes algo que esconder</h2>
-      </div>
-     <br></br>  
-    
-     <div id= "buttons"> <button onclick="location.href='index2A.html'">Encriptar</button></div>
-    
-      <BR></BR>
+            <!-- INICIO -->
+      <div id="1rstFrame">
+        <h1>EL TECLADO DE RASEC</h1>
+          <h2>Parece que tienes algo que esconder</h2>
+            <h3>O descubrir.</h3>
+      <div> 
+                <!-- 1ra Caja de texto -->
 
-      <div id= "buttons"> <button onclick="location.href='index2B.html'">Desencriptar</button> </div>
+        <input  id = "firstTextBox" type="text" value="" placeholder="Escribe tus mensajes secretos o descubre los de tus camarada"/>
+          <br> </br>
+          
+                  <!-- Botones -->
+            <div> <button id="button1"> Encriptar </button>
+            </div>
+            <div> <button id="button2"> Desencriptar </button>
+          </div>
+          <br> </br>
+         <div>
+                    <!-- 2da caja de texto -->
+            <p>Aquí puedes ver el texto encriptado/desencriptado</p>
+            <p id=mensajeConvertido></p> 
+            <input type="text" id="secondTextBox"/> 
+            <br> </br>
+          </div>
+      </div>
+
+<!-- 
+    
+      <h2>Ahora sí, comparte con seguridad tus confidencias. </h2>
     </div>
 
-    <!-- 2DA PANTALLA -->
+    <div id= "buttons"> <button onclick="location.href='index2A.html'">Encripta nuevo mensaje</button></div>
+        <BR></BR>
+      <div id= "buttons"><button onclick="location.href='index2B.html'">Desencripta un mensaje</button></div>
 
-    <div id="2ndFrame">
-        <h2>Inserta tus mensajes secretos.</h2>
+ 5ta parte 
 
-     </div>
-
-      <div>
-      <input type="text"  id="mensaje2A"> <br> </br>
-      </div>
-
-      <div > <button id="button2A"> Encriptar </button>  </div>
-
-      <br>
-    
-      <div id= "next3A" onclick ="location.href='index3A.html'"> <button> Siguiente </button>  </div>
-
-    </div>
-
-
-
-
+ <div id="root">
+    <h2>¡Ajá!, con que esto ocultaban, intrépidos jovenzuelos. </h2>
+  </div>
+  <div id= "buttons"> <button onclick="location.href='index2B.html'"> Desencripta nuevo mensaje </button></div>
+      <BR></BR> 
+  <div id= "buttons"> <button onclick="location.href='index2A.html'"> Encripta un mensaje </button></div>
+      -->
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>

@@ -1,10 +1,13 @@
 /* Acá va tu código */
 body {
     color: white;
-    background-color: #333e35;
-    font-family: roboto,sans-serif;
+    /*background-color: #333e35;*/
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/001/992/455/large/inkola-dlm-1531-bg-v04.jpg?1455660968);
+    background-size: 105% 110%;
+    background-repeat: auto;
+    background-attachment: fixed;
+     font-family: roboto,sans-serif;
     text-align: center;
-   
     height: 13%;
     margin: 10%;
     justify-content: center;
@@ -19,15 +22,20 @@ body {
     margin-BOTTOM: 7%;
     height: 100%;
     width: 100%;*/
-   }   
+}   
 
-    h1 {
-     text-decoration: underline;
-    }
+h1 {
+     
+}
       
-    
-   #buttons {
-   font-family: 'Mukta', sans-serif;
-   font-weight: 800;
-   }
+#firstTextBox, #secondTextBox{
+    width:510px;
+    height:30px;
+    text-align: center;
+} 
+
+#buttons {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 800;
+}
    
