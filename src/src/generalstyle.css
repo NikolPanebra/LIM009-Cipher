@@ -2,7 +2,7 @@
 body {
     color: white;
     /*background-color: #333e35;*/
-    background-image: url(https://images6.alphacoders.com/855/855868.jpg);
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/001/992/455/large/inkola-dlm-1531-bg-v04.jpg?1455660968);
     background-size: 105% 110%;
     background-repeat: auto;
     background-attachment: fixed;
@@ -23,24 +23,19 @@ body {
     height: 100%;
     width: 100%;*/
 }   
+
 h1 {
-    color: #97a801;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;  
-}
-p {
-     margin: #333e35;
+     
 }
       
-#firstTextBox, #secondTextBox{
-    width:510px;
+#first_textbox{
+    width: 410px;
     height:30px;
     text-align: center;
 } 
-.button {
+
+#buttons {
     font-family: 'Mukta', sans-serif;
     font-weight: 800;
-    background-color:#97a801;
-    color: whitesmoke;
-
 }
    
