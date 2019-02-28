@@ -1,45 +1,53 @@
 
 <!DOCTYPE html>
-<html lang = esp>
+<html lang = "es" >
   <head>
     <meta charset="utf-8">
-    <title>El teclado de Rasec</title>
+    <title>RASEC'S KEYBOARD</title>
     <link rel="stylesheet" href="generalstyle.css" />
-    <link href="https://fonts.googleapis.com/css?family=Mukta:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   </head>
   <body>
+    <header>
+      <h1 class = "titulo">EL TECLADO DE RASEC</h1>
+    </header>
             <!-- INICIO -->
-   <div class=content>
-      <div id="1rstFrame">
-        <h1>EL TECLADO DE RASEC</h1>
+    <main class= "bodyContent">  
           <h2>Parece que tienes algo que esconder</h2>
             <h3>O descubrir.</h3>
-            <p></p>
+            <p> </p>
       <div> 
                 <!-- 1ra Caja de texto  + offset-->
 
-        <input  id = "entrada" type="text" value="" placeholder="Escribe tus mensajes secretos o descubre los de tus camaradas"/>
-          <br> </br>
-          <input  id = "offset1" type="text" value="" placeholder="Cantidad de desplazamiento"/>
-            <br> <br>
-            </div>
+        <input  id = "entrada" type="text" value="" placeholder="Escribe tus mensajes secretos o descubre los de tus camaradas"/><br/>
+        
+          <input  id = "offset1" type="number" value="" placeholder="Cantidad de desplazamiento"/>
+            <br> 
+      </div>
                   <!-- Botones -->
-            <div> <button class= "button"id="button1"> Encriptar </button>
-            </div>
-            <br>
-            <div> <button class= "button" id="button2"> Desencriptar </button>
-          </div>
-          <br> </br>
-         <div>
+      <div> <button class = "button" id = "button1" > Encriptar </button>
+      </div>
+            <br> 
+      <div> <button class = "button" id = "button2" > Desencriptar </button>
+      </div>
+          <br> 
+        <div>
                     <!-- 2da caja de texto -->
             <h4>⇊ Aquí puedes ver el texto encriptado/desencriptado ⇊</h4>
-            <strong> <p id=mensajeConvertido></p>  </strong>
-            <br> </br>
-          </div>
+              <strong> <p class = "resultedParagraph" id ="mensajeConvertido"> </p>  </strong>
+                <br> 
         </div>
-      </div>
- <!-- agregar footer con informaci{on sobre le juego, agregar video o m{usica, -->
+      </main>
+    
+       <!-- agregar footer con información sobre  juego, agregar video o música, -->
 
+    <footer  class = "footerContent">
+      <div>
+            <div class = "rasecLogo"> </div>
+
+               <p>© 2019 Ankama</p>
+      </div>
+    </footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

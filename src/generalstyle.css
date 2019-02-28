@@ -1,37 +1,47 @@
 /* Acá va tu código */
 body {
-    color: white;
-    background-image: url(https://images6.alphacoders.com/855/855868.jpg);
-    background-size: 105% 110%;
-    background-repeat: auto;
-    background-attachment: fixed;
-    font-family: roboto,sans-serif;
-    text-align: center;
-    height: 10%;
-    margin: 10%;
-    justify-content: center;
-    align-items: center;
+color: white;
+background-image: url(https://images6.alphacoders.com/855/855868.jpg);
+background-size: 105% 110%;
+background-repeat: auto;
+background-attachment: fixed;
+font-family: 'Inconsolata', monospace;
+text-align: center;
+height: 10%;
+margin: 10%;
+justify-content: center;
+align-items: center;
 } 
-
-h1 {
-color: #97a801;
+ 
+.titulo {
+color: #5b8b00;
 text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;  
+font-size: 70px;
 }
 
-.content {
+.bodyContent {
 background-color: rgba(22, 21, 21, 0.726);
+
 }
       
-#entrada, {
-width:510px;
+#entrada {
+width:400px;
 height:30px;
 text-align: center;
 } 
 
 .button {
-font-family: 'Mukta', sans-serif;
+font-family: 'Inconsolata', monospace;
 font-weight: 800;
 background-color:#97a801;
 color: whitesmoke;
+font-size: 20px;
 }
-   
+
+.footerContent{
+background-color: black;
+opacity: 0.8;
+}
+.rasecLogo {
+background-image: url(http://img3.wikia.nocookie.net/__cb20101219092939/dofus/es/images/a/ab/Dofus_Esmeralda.png);
+}

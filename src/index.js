@@ -6,7 +6,6 @@ const entrada = document.getElementById('entrada');
 const salida = document.getElementById('mensajeConvertido');
 const buttonEncriptar = document.getElementById('button1');
 const buttonDesencriptar = document.getElementById('button2');
-const mensajeConvertido = document.getElementById('mensajeConvertido');
 const desplazamiento = document.getElementById('offset1');
  
 function encriptarMensaje() {
