@@ -1,46 +1,37 @@
 /* Acá va tu código */
 body {
     color: white;
-    /*background-color: #333e35;*/
     background-image: url(https://images6.alphacoders.com/855/855868.jpg);
     background-size: 105% 110%;
     background-repeat: auto;
     background-attachment: fixed;
-     font-family: roboto,sans-serif;
+    font-family: roboto,sans-serif;
     text-align: center;
-    height: 13%;
+    height: 10%;
     margin: 10%;
     justify-content: center;
     align-items: center;
-    /*border-top: 2px solid #97A801;
-    border-right: 2px solid #97A801;
-    border-bottom: 2px solid #97A801;
-    border-left: 2px solid #97A801;
-    margin-right: 10%
-    margin-left: 10%;
-    margin-TOP: 7%;
-    margin-BOTTOM: 7%;
-    height: 100%;
-    width: 100%;*/
-}   
+} 
+
 h1 {
-    color: #97a801;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;  
+color: #97a801;
+text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;  
 }
-p {
-     margin: #333e35;
+
+.content {
+background-color: rgba(22, 21, 21, 0.726);
 }
       
-#firstTextBox, #secondTextBox{
-    width:510px;
-    height:30px;
-    text-align: center;
+#entrada, {
+width:510px;
+height:30px;
+text-align: center;
 } 
-.button {
-    font-family: 'Mukta', sans-serif;
-    font-weight: 800;
-    background-color:#97a801;
-    color: whitesmoke;
 
+.button {
+font-family: 'Mukta', sans-serif;
+font-weight: 800;
+background-color:#97a801;
+color: whitesmoke;
 }
    
