@@ -1,47 +1,118 @@
 /* Acá va tu código */
+
 body {
-color: white;
-background-image: url(https://previews.123rf.com/images/bestforlater91/bestforlater911605/bestforlater91160500197/57366326-textura-de-piedra-de-roca-piedra-de-roca-de-fondo-o-fondo-de-pantalla-mira-mi-cartera-para-m%C3%A1s-textura.jpg);
-background-size: 105% 110%;
-background-repeat: auto;
-background-attachment: fixed;
-font-family: 'Inconsolata', monospace;
-text-align: center;
-height: 10%;
-margin: 10%;
-justify-content: center;
-align-items: center;
+    color: white;
+    background-image: url(https://yese69.com/wp-content/uploads/data/2018/1/2/blue-gradient-background-1920x1-WTG30210118.jpg);
+    background-size: 105% 100%;
+    background-repeat: auto;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+    font-stretch: expanded;
+    text-align: center;
+    justify-content: center;
 } 
- 
-.titulo {
-color: #5b8b00;
-text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;  
-font-size: 70px;
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgba(22, 21, 21, 0.726);
+    display: flex;
+} 
+
+.logo{
+margin: 10px 50px;
+height: 70px;
+padding: none;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;    
+}
+.main-nav li{
+    display: inline-block;
+} 
+.main-nav li .active a{
+    border: 1px solid white;
 }
 
-.bodyContent {
-background-color: rgba(22, 21, 21, 0.726);
+.main-nav li a:hover{
+    border: 1px solid white;
+    background-color: #c8dd089a;
+}
 
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.titulo {
+    /*background-color: #13132B;*/
+    color: black;
+    /*
+    color: #BB9823; */
+    text-shadow: 4px 0 0 #97a801, -2px 0 0 #97a801, 0 2px 0 #97a801, 0 -2px 0 #97a801, 1px 1px #97a801, -1px -1px 0 #97a801, 1px -1px 0 #97a801, -1px 1px 0 #97a801;  
+    font-size: 75px;
+    vertical-align: top;
+    font-family: fantasy;
+    font-stretch: extra-expanded;
+}
+
+ .bodyContent {
+    padding:20px; 
+    background-color: rgba(22, 21, 21, 0.726);
+    display: inline-block;
+    align-content: center;
+    vertical-align: middle;
 }
       
-#entrada {
-width:400px;
-height:30px;
-text-align: center;
+ .bodyContent .userMsg {
+    width:400px;
+    height:30px;
+    text-align: center;
 } 
 
-.button {
-font-family: 'Inconsolata', monospace;
-font-weight: 800;
-background-color:#97a801;
-color: whitesmoke;
-font-size: 20px;
+.bodyContent .userOffset {
+    width:250px;
+    height:24px;
+    text-align: center;
 }
 
-.footerContent{
-background-color: black;
-opacity: 0.8;
+.bodyContent .button {
+    font-family: "bebas_neueregular",sans-serif;
+    font-weight: 800;
+    background-color:#97a801;
+    color: whitesmoke;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 7px 20px;
+    text-decoration: none;
+    font-size: 19px;
 }
-.rasecLogo {
-background-image: url(http://img3.wikia.nocookie.net/__cb20101219092939/dofus/es/images/a/ab/Dofus_Esmeralda.png);
+
+ .button:hover {
+    border: 2px solid white;
+    background-color: #140e5f8a;
+}
+
+ main .bodyContent h4 {
+    font-family: "Roboto", sans-serif;
+ }
+
+ #resultedP{
+    font-family: "Roboto", sans-serif;
+    border: 1px solid white;
+ }
+
+.footerContent{
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: rgb(223, 253, 211);
+    width: 100%;
 }

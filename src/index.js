@@ -9,7 +9,7 @@ const buttonDesencriptar = document.getElementById('button2');
 const desplazamiento = document.getElementById('offset1');
  
 function encriptarMensaje() {
-  let capturaMensaje = entrada.value;
+  let capturaMensaje = entrada.value.toUpperCase();
   let codigoDeLetra = parseInt(desplazamiento.value);
   let mensajeMostrado = cipher.encode(codigoDeLetra,capturaMensaje);
   salida.innerHTML = mensajeMostrado;
@@ -18,7 +18,7 @@ function encriptarMensaje() {
 buttonEncriptar.addEventListener("click", encriptarMensaje);
 
 function desencriptarMensaje() {
-  let capturaMensaje = entrada.value;
+  let capturaMensaje = entrada.value.toUpperCase();
   let codigoDeLetra = parseInt(desplazamiento.value);
   let mensajeMostrado = cipher.decode(codigoDeLetra,capturaMensaje);
   salida.innerHTML = mensajeMostrado;

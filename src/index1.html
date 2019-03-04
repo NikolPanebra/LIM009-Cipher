@@ -3,41 +3,62 @@
 <html lang = "es" >
   <head>
     <meta charset="utf-8">
-    <title>RASEC'S KEYBOARD</title>
+    <link rel="shortcut icon" href="https://www.dofus.com/favicon.ico">
+    <title>EL TECLADO DE RASEC</title>
     <link rel="stylesheet" href="generalstyle.css" />
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1 class = "titulo">EL TECLADO DE RASEC</h1>
+      
+      <div class = "row">
+          <a href="https://www.dofus.com/es" target="_blank"> <img src=" http://img3.wikia.nocookie.net/__cb20101219092939/dofus/es/images/a/ab/Dofus_Esmeralda.png" class="logo"> </a>
+          
+          <ul class="main-nav">    
+              <li class="active"><a href=""> ¿QUÉ ES EL TECLADO DE RASEC? </a></li>
+              <li><a href="#"> ¿CÓMO FUNCIONA? </a></li>
+              <li><a href="https://www.dofus.com/es/mmorpg/jugar" target="_blank" > ¡JUGAR DOFUS! </a></li>
+              <li><a href="https://www.dofus.com/es/mmorpg/enciclopedia/mapas" target="_blank"> MAPAS DEL MUNDO DE LOS DOCE </a></li>
+          </ul>  
+
+      </div> <br>
+
+      <h1 class = "titulo">EL TECLADO DE RASEC</h1> 
+
     </header>
+
             <!-- INICIO -->
+
     <main class= "bodyContent">  
           <h2>Parece que tienes algo que esconder</h2>
             <h3>O descubrir.</h3>
-            <p> </p>
-      <div> 
+          <div> 
                 <!-- 1ra Caja de texto  + offset-->
+          <input  class = "userMsg" id = "entrada" type="text" value="" placeholder="Escribe tus mensajes secretos o descubre los de tus camaradas"/><br/>
+            <br>
+          <input  class = "userOffset" id = "offset1" type="number" value="" placeholder="Cantidad de desplazamiento"/>
+            <br> 
+        </div>
 
-        <input  id = "entrada" type="text" value="" placeholder="Escribe tus mensajes secretos o descubre los de tus camaradas"/><br/>
-        
-          <input  id = "offset1" type="number" value="" placeholder="Cantidad de desplazamiento"/>
-            <br> 
-      </div>
                   <!-- Botones -->
-      <div> <button class = "button" id = "button1" > Encriptar </button>
-      </div>
+        <div> 
+            <br>
+            <a href="#" class="button" id = "button1" > ENCRIPTAR</a>
+            <br>
             <br> 
-      <div> <button class = "button" id = "button2" > Desencriptar </button>
-      </div>
+            <a href="#" class="button" id = "button2" > DESENCRIPTAR</a>
+        </div>
+
           <br> 
+
         <div>
                     <!-- 2da caja de texto -->
-            <h4>⇊ Aquí puedes ver el texto encriptado/desencriptado ⇊</h4>
-              <strong> <p class = "resultedParagraph" id ="mensajeConvertido"> </p>  </strong>
+            <h4>  ⇊ Aquí puedes ver el texto encriptado/desencriptado ⇊  </h4>
+              <strong> <p class = "resultedP" id ="mensajeConvertido"> </p>  </strong>
                 <br> 
         </div>
-      </main>
+
+    </main>
     
        <!-- agregar footer con información sobre  juego, agregar video o música, -->
 
