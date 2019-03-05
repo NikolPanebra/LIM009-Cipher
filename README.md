@@ -12,7 +12,7 @@ Al conocer el punto de vista del usuario, pensé en algo necesario y que aún no
 ## ¿QUÉ PROBLEMA DEL USUARIO SOLUCIONA?
 Dado que el chat dentro de Dofus es público y cualquier mensaje escrito es visible en una burbuja de diálogo sobre la cabeza del jugador, cualquier participante que se encuentre en el mismo servidor puede leer lo escribas. Esto se convierte en un inconveniente cuando lo que quieres es compartir información valiosa que te acerca a los **6 dofus primordiales**.
 
-![BubbleIncarnam](https://staticns.ankama.com/comm/news/dofus/www/03_2016/pnj.png)
+![bubbleChat](http://staticns.ankama.com/comm/news/dofus/www/03_2016/bulles.png)
 
 ## OBJETIVOS DE LOS USUARIOS EN RELACIÓN AL PRODUCTO
 Los usuarios utilizarían **"EL TECLADO DE RASEC"** para encriptar sus mensajes y poder compartirlos sin la preocupación de que ojos ajenos descubran su significado y si desean que alguien lo entienda, solo tendrían que compartir el código de desplazamiento.

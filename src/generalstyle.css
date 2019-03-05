@@ -2,7 +2,7 @@
 
 body {
     color: white;
-    background-image: url(https://yese69.com/wp-content/uploads/data/2018/1/2/blue-gradient-background-1920x1-WTG30210118.jpg);
+    background-image: url(https://www.unilad.co.uk/wp-content/uploads/2016/09/85061f325dfe88be18456c07b611187e.jpg);
     background-size: 105% 100%;
     background-repeat: auto;
     background-attachment: fixed;
@@ -20,14 +20,16 @@ body {
 } 
 
 .logo{
-margin: 10px 50px;
+margin: none;
 height: 70px;
 padding: none;
+
 }
 .main-nav{
     float: right;
     list-style: none;
-    margin-top: 30px;    
+    margin-top: 30px; 
+    width: 100%;  
 }
 .main-nav li{
     display: inline-block;
@@ -59,11 +61,11 @@ padding: none;
     vertical-align: top;
     font-family: fantasy;
     font-stretch: extra-expanded;
-}
+}rgba(22, 21, 21, 0.726);
 
  .bodyContent {
     padding:20px; 
-    background-color: rgba(22, 21, 21, 0.726);
+    background-color:rgba(22, 21, 21, 0.726);
     display: inline-block;
     align-content: center;
     vertical-align: middle;
