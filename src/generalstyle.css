@@ -20,7 +20,7 @@ body {
 } 
 
 .logo{
-margin: none;
+margin-left: 20px;
 height: 70px;
 padding: none;
 
@@ -30,6 +30,7 @@ padding: none;
     list-style: none;
     margin-top: 30px; 
     width: 100%;  
+
 }
 .main-nav li{
     display: inline-block;
@@ -48,7 +49,7 @@ padding: none;
     text-decoration: none;
     padding: 5px 20px;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .titulo {
@@ -56,11 +57,11 @@ padding: none;
     color: black;
     /*
     color: #BB9823; */
-    text-shadow: 4px 0 0 #97a801, -2px 0 0 #97a801, 0 2px 0 #97a801, 0 -2px 0 #97a801, 1px 1px #97a801, -1px -1px 0 #97a801, 1px -1px 0 #97a801, -1px 1px 0 #97a801;  
-    font-size: 75px;
+    text-shadow: 7px 0 0 #97a801, -2px 0 0 #97a801, 0 2px 0 #97a801, 0 -2px 0 #97a801, 1px 1px #97a801, -1px -1px 0 #97a801, 1px -1px 0 #97a801, -1px 1px 0 #97a801;  
+    font-size: 85px;
     vertical-align: top;
     font-family: fantasy;
-    font-stretch: extra-expanded;
+    font-stretch: ultra-expanded;
 }
 
  .bodyContent {

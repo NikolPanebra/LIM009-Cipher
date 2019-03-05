@@ -1,4 +1,4 @@
-# EL TECLADO DE RASEC
+# **EL TECLADO DE RASEC**
 Esta app es una extensión del mundialmente conocido juego de rol en línea multijugador (MMORPG) [**Dofus**](https://www.dofus.com/es) . Este juego está lleno de batallas, misiones y desafíos que te ayudarán a desarrollar y subir de nivel la clase de héroe que has elegido para tu personaje. Sin embargo, *La Misión* y lo que nos interesa son los dofus, huevos de dragones de distintos tamaños y colores, y no simples dofus, sino los ***6 dofus primordiales***, esparcidos por todo el **Mundo de los Doce**; y que según la leyenda quien consiga reunirlos se convertirá en el igual de los Dioses. Además, **Dofus** se caracteriza por tener un humor singular, razón fundamental por la que elegí el nombre de mi App, ya que al haber clases de personajes llamados, por ejemplo, clase ["Zurcarák"](https://www.dofus.com/es/mmorpg/enciclopedia/clases/6-zurcarak)(guerreros jugadores del azar), clase ["Aniripsa"](https://www.dofus.com/es/mmorpg/enciclopedia/clases/7-aniripsa) (sanadores capaces de curar con una sola palabra), clase ["Anutrof"](https://www.dofus.com/es/mmorpg/enciclopedia/clases/3-anutrof) (buscatesoros y acumuladores de monedas), entre muchos otros, me pareció oportuno, para seguir con la línea del juego, también invertir el orden de las palabras de CESAR a RASEC.
 
 ![Mundo de Dofus](https://s.ankama.com/www/static.ankama.com/dofus/ng/modules/mmorpg/discover/illu_block_jeux_en_ligne.png)
@@ -18,6 +18,7 @@ Dado que el chat dentro de Dofus es público y cualquier mensaje escrito es visi
 Los usuarios utilizarían **"EL TECLADO DE RASEC"** para encriptar sus mensajes y poder compartirlos sin la preocupación de que ojos ajenos descubran su significado y si desean que alguien lo entienda, solo tendrían que compartir el código de desplazamiento.
 
 ## ¿CÓMO FUNCIONA "EL TECLADO DE RASEC"?
+#### EL CIFRADO DE CÉSAR
 Se usa un sistema de encriptado llamado *"El Cifrado de César¨* (de ahí el nombre), cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
@@ -32,6 +33,17 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
+
+### ***PASOS A SEGUIR***
+1) Escribes el mensaje que quieres cifrar o descifrar en la entrada de texto.
+
+2) Elige el número de desplazamiento (código secreto) que prefieras.
+
+3) Haces click sobre el botón de **ENCRIPTAR** o **DESENCRIPTAR**, de acuerdo al proceso que desees realizar.
+
+4) Recibirás el mensaje encriptado o desencriptado en la parte inferior.
+
+5) Ahora eres libre de compartir
 
 ## ELECCIÓN DE OPCIONES DE DISEÑO E INTERACCIÓN
 Para mantener la relación visual entre esta app y el mundo de [Dofus](https://www.dofus.com/es) he tratado de mantener las tonalidades y colores caracteríticos de su página web principal.
