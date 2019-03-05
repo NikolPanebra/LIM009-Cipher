@@ -15,7 +15,7 @@ body {
 .row{
     max-width: 1200px;
     margin: auto;
-    background-color: rgba(22, 21, 21, 0.726);
+    background-color: rgba(21, 21, 22, 0.726);
     display: flex;
 } 
 
@@ -61,11 +61,11 @@ padding: none;
     vertical-align: top;
     font-family: fantasy;
     font-stretch: extra-expanded;
-}rgba(22, 21, 21, 0.726);
+}
 
  .bodyContent {
     padding:20px; 
-    background-color:rgba(22, 21, 21, 0.726);
+    background-color: rgba(21, 21, 22, 0.726);
     display: inline-block;
     align-content: center;
     vertical-align: middle;

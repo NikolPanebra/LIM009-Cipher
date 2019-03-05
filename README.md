@@ -37,7 +37,7 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 Para mantener la relación visual entre esta app y el mundo de [Dofus](https://www.dofus.com/es) he tratado de mantener las tonalidades y colores caracteríticos de su página web principal.
 
  ### ¿CÓMO ACCEDER A LA APP?
- Puedes acceder a través de este enlace https://nikolpanebra.github.io/LIM009-Cipher/src/index1.html
+ Puedes acceder a través de este enlace https://nikolpanebra.github.io/LIM009-Cipher/src/index.html
  
 
 
