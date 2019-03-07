@@ -68,12 +68,13 @@ padding: none;
 
  .bodyContent {
     padding:20px; 
-    background-color: rgba(12, 12, 31, 0.726);
     display: inline-block;
     align-content: center;
     vertical-align: middle;
 }
-      
+    main{
+    background-color: rgba(12, 12, 31, 0.726);
+    }  
  .bodyContent .userMsg {
     width:550px;
     height:35px;
