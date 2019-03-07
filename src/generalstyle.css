@@ -23,16 +23,10 @@ body {
 } 
 
 .logo{
-<<<<<<< HEAD
 margin-left: 20px;
 height: 70px;
 padding: none;
 
-=======
-    margin: none;
-    height: 70px;
-    padding: none;
->>>>>>> 69a6496d3951a3d3e066200d98a64929a8191300
 }
 .main-nav{
     float: right;
@@ -69,18 +63,12 @@ padding: none;
     font-size: 85px;
     vertical-align: top;
     font-family: fantasy;
-<<<<<<< HEAD
     font-stretch: ultra-expanded;
 }
-=======
-    font-stretch: extra-expanded;
-}
-
->>>>>>> 69a6496d3951a3d3e066200d98a64929a8191300
 
  .bodyContent {
     padding:20px; 
-    background-color: rgba(21, 21, 22, 0.726);
+    background-color: rgba(12, 12, 31, 0.726);
     display: inline-block;
     align-content: center;
     vertical-align: middle;
