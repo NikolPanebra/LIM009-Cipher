@@ -2,26 +2,26 @@
 
 /* Acá va tu código */
 /* DECLARAR Variables*/
-const entrada = document.getElementById('entrada');
-const salida = document.getElementById('mensajeConvertido');
-const buttonEncriptar = document.getElementById('button1');
-const buttonDesencriptar = document.getElementById('button2');
+const entry = document.getElementById('entrada');
+const output = document.getElementById('mensajeConvertido');
+const encryptButton = document.getElementById('button1');
+const decryptButton = document.getElementById('button2');
 const desplazamiento = document.getElementById('offset1');
- 
-function encriptarMensaje() {
-  let capturaMensaje = entrada.value.toUpperCase();
-  let codigoDeLetra = parseInt(desplazamiento.value);
-  let mensajeMostrado = cipher.encode(codigoDeLetra,capturaMensaje);
-  salida.innerHTML = mensajeMostrado;
-  } 
 
-buttonEncriptar.addEventListener("click", encriptarMensaje);
+function encryptMessage() {
+  let receiveMessage = entry.value;
+  let letterSCode = parseInt(desplazamiento.value);
+  let changedMessage = cipher.encode(letterSCode, receiveMessage);
+  output.innerHTML = changedMessage;
+}
 
-function desencriptarMensaje() {
-  let capturaMensaje = entrada.value.toUpperCase();
-  let codigoDeLetra = parseInt(desplazamiento.value);
-  let mensajeMostrado = cipher.decode(codigoDeLetra,capturaMensaje);
-  salida.innerHTML = mensajeMostrado;
-  } 
+encryptButton.addEventListener("click", encryptMessage);
 
-buttonDesencriptar.addEventListener("click", desencriptarMensaje);
+function decryptMessage() {
+  let receiveMessage = entry.value;
+  let letterSCode = parseInt(desplazamiento.value);
+  let changedMessage = cipher.decode(letterSCode, receiveMessage);
+  output.innerHTML = changedMessage;
+}
+
+decryptButton.addEventListener("click", decryptMessage);

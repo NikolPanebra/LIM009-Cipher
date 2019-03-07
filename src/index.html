@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   </head>
   <body>
-    <embed src="C:\Users\L-37\Downloads\forest.mp3" autostarty= "true" loop= "true" volume="100" width="0" height="0">
+  <embed src="recursos\forest.mp3" autostarty= "true" loop= "true" volume="100" width="0" height="0">
     <header>
       
       <div class = "row">
@@ -17,29 +17,34 @@
           
           <ul class="main-nav">    
               <li class="active"><a href="https://nikolpanebra.github.io/LIM009-Cipher/" target="_blank"> ¿QUÉ ES EL TECLADO DE RASEC? </a></li>
-              <li><a href="#"> ¿CÓMO FUNCIONA? </a></li>
+              <li><a href="https://nikolpanebra.github.io/LIM009-Cipher/" target="_blank"> ¿CÓMO FUNCIONA? </a></li>
               <li><a href="https://www.dofus.com/es/mmorpg/jugar" target="_blank" > ¡JUGAR DOFUS! </a></li>
               <li><a href="https://www.dofus.com/es/mmorpg/enciclopedia/mapas" target="_blank"> MAPAS DEL MUNDO DE LOS DOCE </a></li>
           </ul>  
 
       </div> <br>
 
-      <h1 class = "titulo">EL TECLADO DE RASEC</h1> 
+      <h1 class = "titulo">EL TECLADO  DE RASEC</h1> 
 
     </header>
 
             <!-- INICIO -->
 
     <main class= "bodyContent">  
-          <h2>Parece que tienes algo que esconder</h2>
+          <h2>Parece que tienes algo que esconder.</h2>
             <h3>O descubrir.</h3>
+            <br>
           <div> 
                 <!-- 1ra Caja de texto  + offset-->
-          <input  class = "userMsg" id = "entrada" type="text" value="" placeholder="Escribe tus mensajes secretos o descubre los de tus camaradas"/><br/>
+                <br>
+          <input  class = "userMsg" id = "entrada" type="text" value="" placeholder="1) Escribe tus mensajes secretos o descubre los de tus camaradas"/><br/>
             <br>
-            <p>⦿ Elige un número de desplazamiento mayor a 1</p>
-          <input  class = "userOffset" id = "offset1" type="number" value="" placeholder="Cantidad de desplazamiento"/>
+            <br>
+            <p> ⦿ Ahora elige el número de desplazamiento —mayor a 0— que se convertirá en tu código secreto.</p>
+            <br>
+          <input  class = "userOffset" id = "offset1" type="number" value="" placeholder="2) Cantidad de desplazamiento"/>
             <br> 
+            <br>
         </div>
 
                   <!-- Botones -->
@@ -47,28 +52,35 @@
             <br>
             <a href="#" class="button" id = "button1" > ENCRIPTAR</a>
             <br>
+            <br>
             <br> 
             <a href="#" class="button" id = "button2" > DESENCRIPTAR</a>
+            <br>
         </div>
 
           <br> 
 
         <div>
                     <!-- 2da caja de texto -->
+                    <br>
             <h4>  ⇊ Aquí puedes ver el texto encriptado/desencriptado ⇊  </h4>
+            <br>
               <strong> <p class = "resultedP" id ="mensajeConvertido"> </p>  </strong>
                 <br> 
         </div>
 
+        <div> <a href="" class="button" id = "button3" > Limpiar </a> </div>
+
     </main>
     
-       <!-- agregar footer con información sobre  juego, agregar video o música, -->
+       <!-- agregar footer con información sobre  juego, agregar video o música, o ponerlo en el header -->
 
     <footer  class = "footerContent">
       <div>
             <div class = "rasecLogo"> </div>
 
-               <p>© 2019 Ankama</p>
+               <p>© 2019 Ankama. </p>
+               <p>Todos los derechos reservados.</p>
       </div>
     </footer>
     <script src="cipher.js"></script>
