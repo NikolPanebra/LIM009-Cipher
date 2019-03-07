@@ -1,4 +1,5 @@
-# EL TECLADO DE RASEC
+# **EL TECLADO DE RASEC**
+## Preámbulo y contexto general
 Esta app es una extensión del mundialmente conocido juego de rol en línea multijugador (MMORPG) [**Dofus**](https://www.dofus.com/es) . Este juego está lleno de batallas, misiones y desafíos que te ayudarán a desarrollar y subir de nivel la clase de héroe que has elegido para tu personaje. Sin embargo, *La Misión* y lo que nos interesa son los dofus, huevos de dragones de distintos tamaños y colores, y no simples dofus, sino los ***6 dofus primordiales***, esparcidos por todo el **Mundo de los Doce**; y que según la leyenda quien consiga reunirlos se convertirá en el igual de los Dioses. Además, **Dofus** se caracteriza por tener un humor singular, razón fundamental por la que elegí el nombre de mi App, ya que al haber clases de personajes llamados, por ejemplo, clase ["Zurcarák"](https://www.dofus.com/es/mmorpg/enciclopedia/clases/6-zurcarak)(guerreros jugadores del azar), clase ["Aniripsa"](https://www.dofus.com/es/mmorpg/enciclopedia/clases/7-aniripsa) (sanadores capaces de curar con una sola palabra), clase ["Anutrof"](https://www.dofus.com/es/mmorpg/enciclopedia/clases/3-anutrof) (buscatesoros y acumuladores de monedas), entre muchos otros, me pareció oportuno, para seguir con la línea del juego, también invertir el orden de las palabras de CESAR a RASEC.
 
 ![Mundo de Dofus](https://s.ankama.com/www/static.ankama.com/dofus/ng/modules/mmorpg/discover/illu_block_jeux_en_ligne.png)
@@ -10,14 +11,17 @@ Pensé en temas que me sean familiares y, por lo tanto, me permitieran pensar de
 Al conocer el punto de vista del usuario, pensé en algo necesario y que aún no había sido creado: **privacidad al transmitir mensajes**; es decir, una manera de compartir mensajes con información sobre los lugares de batallas o La Misión en el juego DoFus sin que otros jugadores, fuera del gremio al que pertenezco, se enteraran.
 
 ## ¿QUÉ PROBLEMA DEL USUARIO SOLUCIONA?
-Dado que el chat dentro de Dofus es público y cualquier mensaje escrito es visible en una burbuja de diálogo sobre la cabeza del jugador, cualquier participante que se encuentre en el mismo servidor puede leer lo escribas. Esto se convierte en un inconveniente cuando lo que quieres es compartir información valiosa que te acerca a los **6 dofus primordiales**.
+Dado que el chat dentro de Dofus es público y cualquier mensaje escrito es visible en una burbuja de diálogo sobre la cabeza del avatar del jugador, cualquier participante que se encuentre en el mismo servidor puede leer lo que se escriba. Esto se convierte en un inconveniente cuando lo que se quiere escompartir información valiosa que te acerca a los **6 dofus primordiales**.
 
-![bubbleChat](http://staticns.ankama.com/comm/news/dofus/www/03_2016/bulles.png)
+![bubbleChat](src/recursos/buble.png)
 
 ## OBJETIVOS DE LOS USUARIOS EN RELACIÓN AL PRODUCTO
-Los usuarios utilizarían **"EL TECLADO DE RASEC"** para encriptar sus mensajes y poder compartirlos sin la preocupación de que ojos ajenos descubran su significado y si desean que alguien lo entienda, solo tendrían que compartir el código de desplazamiento.
+Los usuarios utilizarían **"EL TECLADO DE RASEC"** para encriptar sus mensajes y poder compartirlos sin la preocupación de que ojos ajenos descubran su significado. Si desean que alguien lo entienda, solo tendrían que compartir el código de desplazamiento.
 
 ## ¿CÓMO FUNCIONA "EL TECLADO DE RASEC"?
+
+#### Cifrado de César ####
+
 Se usa un sistema de encriptado llamado *"El Cifrado de César¨* (de ahí el nombre), cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
@@ -33,21 +37,25 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
+### Pasos a seguir ###
+
+1) Escribe el mensaje que desees encriptar o alguno que desees desencriptar.
+
+2) Elige la cantidad de desplazamiento de letra que desees, la cual, luego, podrás compartir como tu **código secreto**.
+
+3) Haz click en **"Encriptar"** o **"Desencriptar"**, de acuerdo al proceso que prefieras realizar.
+
+4) ¡Listo! Ahora ya puedes compartir tu mensaje con total seguridad. Solo recuerda compartir también el código secreto para que puedan encriptar/desencriptar el mensaje.
+
 ## ELECCIÓN DE OPCIONES DE DISEÑO E INTERACCIÓN
+
+![backgroundRASEC](src/recursos/pagweb.jpg)
+
 Para mantener la relación visual entre esta app y el mundo de [Dofus](https://www.dofus.com/es) he tratado de mantener las tonalidades y colores caracteríticos de su página web principal.
 
- ### ¿CÓMO ACCEDER A LA APP?
- Puedes acceder a través de este enlace https://nikolpanebra.github.io/LIM009-Cipher/src/index1.html
- 
+Además, incluí un menú con botones redirigibles que hicieran más sencilla y práctica la experiencia del usuario, como el ícono del Huevo Esmeralda, que lo lleva a la Página Web principal de Dofus.
 
+ ## ¿CÓMO ACCEDER A LA APP?
 
-
-
-
-
-
-
-
-
-
- _____________________________________________________
+ ### Puedes acceder a través de este enlace **https://nikolpanebra.github.io/LIM009-Cipher/src/index.html**
+_____________________________________________________

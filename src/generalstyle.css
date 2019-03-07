@@ -1,5 +1,8 @@
 /* Acá va tu código */
-
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     color: white;
     background-image: url(https://www.unilad.co.uk/wp-content/uploads/2016/09/85061f325dfe88be18456c07b611187e.jpg);
@@ -20,10 +23,9 @@ body {
 } 
 
 .logo{
-margin: none;
-height: 70px;
-padding: none;
-
+    margin: none;
+    height: 70px;
+    padding: none;
 }
 .main-nav{
     float: right;
@@ -37,12 +39,10 @@ padding: none;
 .main-nav li .active a{
     border: 1px solid white;
 }
-
 .main-nav li a:hover{
     border: 1px solid white;
     background-color: #c8dd089a;
 }
-
 .main-nav li a{
     color: white;
     text-decoration: none;
@@ -50,6 +50,7 @@ padding: none;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
 }
+
 
 .titulo {
     /*background-color: #13132B;*/
@@ -61,7 +62,8 @@ padding: none;
     vertical-align: top;
     font-family: fantasy;
     font-stretch: extra-expanded;
-}rgba(22, 21, 21, 0.726);
+}
+
 
  .bodyContent {
     padding:20px; 
@@ -72,19 +74,20 @@ padding: none;
 }
       
  .bodyContent .userMsg {
-    width:400px;
-    height:30px;
+    width:550px;
+    height:35px;
     text-align: center;
+    font-size: 16px;
 } 
 
 .bodyContent .userOffset {
-    width:250px;
-    height:24px;
+    width:270px;
+    height:30px;
     text-align: center;
+    font-size: 16px;
 }
 
 .bodyContent .button {
-    font-family: "bebas_neueregular",sans-serif;
     font-weight: 800;
     background-color:#97a801;
     color: whitesmoke;
@@ -100,14 +103,6 @@ padding: none;
     background-color: #140e5f8a;
 }
 
- main .bodyContent h4 {
-    font-family: "Roboto", sans-serif;
- }
-
- #resultedP{
-    font-family: "Roboto", sans-serif;
-    border: 1px solid white;
- }
 
 .footerContent{
     height: 190px;
@@ -115,6 +110,7 @@ padding: none;
     align-items: center;
     justify-content: center;
     background: black;
-    color: rgb(223, 253, 211);
+    color: rgba(255, 206, 183, 0.986);
     width: 100%;
+    padding-bottom: 25px;
 }
